@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'freehand-521-bt';
+    src: url('assets/fonts/freehand-521-bt-59298a453f4b4.ttf');
+}
+
+body {
+  margin: 0px;
+}
