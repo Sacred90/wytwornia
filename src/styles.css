@@ -4,6 +4,13 @@
     src: url('assets/fonts/freehand-521-bt-59298a453f4b4.ttf');
 }
 
+@font-face {
+    font-family: 'geniso';
+    src: url('assets/fonts/GENISO_0.ttf');
+}
+
 body {
   margin: 0px;
+  font-family: 'geniso';
+  font-size: 12px;
 }
