@@ -8,17 +8,23 @@ import { AppRoutingModule }             from './app.routing.module';
 
 /* Pages */
 import { StartModule }                  from './pages/start/start.module';
+import { MenuComponent }                from './pages/menu/menu.component';
+
+/* Shared */
+import { SharedModule }                 from './shared/shared.module';
 
 @NgModule({
   declarations: [
     AppComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     StartModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
