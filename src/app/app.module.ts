@@ -8,15 +8,15 @@ import { AppRoutingModule }             from './app.routing.module';
 
 /* Pages */
 import { StartModule }                  from './pages/start/start.module';
-import { MenuComponent }                from './pages/menu/menu.component';
+import { MenuModule }                   from './pages/menu/menu.module';
+import { ContentModule }                from './pages/content/content.module';
 
 /* Shared */
 import { SharedModule }                 from './shared/shared.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    MenuComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +24,9 @@ import { SharedModule }                 from './shared/shared.module';
     StartModule,
     FormsModule,
     HttpModule,
-    SharedModule
+    SharedModule,
+    ContentModule,
+    MenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

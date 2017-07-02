@@ -1,9 +1,7 @@
-/* Icon 2 */
-
 .hamburger{
   width: 40px;
-  height: 45px;
-  position: absolute;
+  height: 40px;
+  position: fixed;
   top: 40px;
   right: 40px; 
   -webkit-transform: rotate(0deg);
@@ -22,7 +20,6 @@
   position: absolute;
   height: 3px;
   width: 50%;
-  background: white;
   opacity: 1;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
