@@ -13,6 +13,7 @@ body {
   font-family: 'geniso';
   font-size: 12px;
   font-weight: 600;
+  overflow: auto;
 }
 
 * {
