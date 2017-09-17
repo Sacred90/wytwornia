@@ -4,6 +4,7 @@ import { RouterModule, Routes }     from '@angular/router';
 import { StartComponent }           from './pages/start/start.component';
 import { MenuComponent }            from './pages/menu/menu.component';
 import { ContentComponent }         from './pages/content/content.component';
+import { ProjectListComponent }     from './pages/projectsList/project-list.component';
 
 const appRoutes: Routes = [
   {
@@ -22,6 +23,10 @@ const appRoutes: Routes = [
   {
     path: 'content',
     component: ContentComponent
+  },
+  {
+    path: 'projects',
+    component: ProjectListComponent
   }
 ];
 

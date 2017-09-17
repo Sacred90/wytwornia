@@ -31,19 +31,22 @@ export class HamburgerComponent {
     if (event instanceof NavigationEnd) {
       if(this.location.path() === "/menu") {
         this.isOpen = false;
+        this.isBlack = true;
       }
-      if(this.location.path() === "/start") {
+      else if(this.location.path() === "/start") {
         this.isBlack = false;
+        this.isOpen = true;
       }
       else {
+        this.isOpen = true;
         this.isBlack = true;
       }
     }
   }
 
   toggleOpen(): void {
-    this.isOpen = !this.isOpen
-    if (this.isOpen) {
+    if (!this.isOpen) {
+      console.log("test");
       this.location.back();
     } else {
       this.router.navigate(['/menu']);
