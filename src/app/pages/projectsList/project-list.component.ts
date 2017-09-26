@@ -9,7 +9,10 @@ export class ProjectListComponent implements OnInit {
 
   constructor() { }
 
+  private images
+
   ngOnInit() {
+    
   }
 
 }

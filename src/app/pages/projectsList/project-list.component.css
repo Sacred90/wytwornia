@@ -2,6 +2,11 @@
     margin-top: 40px;
 }
 
+.projects-container {
+    margin-left: 15px;
+    margin-right: 15px; 
+}
+
 .projects-topLine {
     top: 40px;
     width: 100%;

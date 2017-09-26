@@ -24,8 +24,8 @@ export class HamburgerComponent {
     })
   }
 
-  private isOpen = true;
-  private isBlack = true;
+  public isOpen = true;
+  public isBlack = true;
 
   adjustHamburger(event): void {
     if (event instanceof NavigationEnd) {
