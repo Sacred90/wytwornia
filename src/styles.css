@@ -11,9 +11,10 @@
 body {
   margin: 0px;
   font-family: 'geniso';
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 600;
   overflow: auto;
+  color: black;
 }
 
 * {
@@ -24,4 +25,9 @@ body {
 
 .active {
   cursor: pointer;
+}
+
+.inactive {
+  color: #C3C3C3;
+  cursor: default;
 }

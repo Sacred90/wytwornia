@@ -19,13 +19,13 @@ import { SharedModule }                 from './shared/shared.module';
 
 // 3th part library
 
-import { GalleryModule, GalleryConfig } from 'ng-gallery';
+import { GalleryModule } from 'ng-gallery';
 
-export const galleryConfig : GalleryConfig = {
+export const galleryConfig : any = {
   "style": {
-    "background": "#121519",
+    "background": "white",
     "width": "100%",
-    "height":"100%",
+    "height": "100%",
     "padding": "1em"
   },
   "animation": "fade",

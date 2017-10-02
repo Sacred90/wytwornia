@@ -47,7 +47,11 @@
 
 .projects-projectThumb-description {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-projectThumb-description > span {
+    max-width: 50%;
 }
 

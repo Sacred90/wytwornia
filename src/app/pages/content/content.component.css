@@ -55,22 +55,42 @@
 
 .content-circle {
     text-align: center;
-    border-radius: 150px;
-    line-height: 150px;
-    height: 150px;
-    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 170px;
+    height: 170px;
+    width: 170px;
     background-color: #B0B0B0;
     color: black;
 }
 
-.content-team {
-    position: relative;
-    margin-bottom: 5px;
+.content-circle-text {
+    padding:10px;
 }
 
+.content-team {
+    margin-bottom: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-color: #C3C3C3
+}
+.content-team--background1{
+    background-image: url('../../../assets/images/leftBasia.jpg');
+}
+.content-team--background2{
+    background-image: url('../../../assets/images/leftAgnieszka.jpg');
+}
 .content-team-description {
-    position: absolute; 
-    top: 20%; 
-    left: 30%; 
-    width: 50%
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    padding-left: 400px; 
+    width: 90%;
+}
+
+@media only screen and (max-width: 966px) {
+    .content-team{
+        background-size: contain;
+    }
 }
