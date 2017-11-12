@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
 @font-face {
     font-family: 'freehand-521-bt';
     src: url('assets/fonts/freehand-521-bt-59298a453f4b4.ttf');
@@ -10,9 +13,8 @@
 
 body {
   margin: 0px;
-  font-family: 'geniso';
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  font-weight: 600;
   overflow: auto;
   color: black;
 }

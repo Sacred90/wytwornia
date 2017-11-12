@@ -13,12 +13,13 @@ import { MenuModule }                   from './pages/menu/menu.module';
 import { ContentModule }                from './pages/content/content.module';
 import { ProjectListModule }            from './pages/projectsList/project-list.module';
 import { ProjectModule }                from './pages/project/project.module';
+import { ContactModule }                from './pages/contact/contact.module'
 
 /* Shared */
 import { SharedModule }                 from './shared/shared.module';
 
 // 3th part library
-
+import { AgmCoreModule } from '@agm/core';
 import { GalleryModule } from 'ng-gallery';
 
 export const galleryConfig : any = {
@@ -70,7 +71,11 @@ export const galleryConfig : any = {
     ProjectListModule,
     ProjectModule,
     BrowserAnimationsModule,
-    GalleryModule.forRoot(galleryConfig)
+    ContactModule,
+    GalleryModule.forRoot(galleryConfig),
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyD3X-xXCl9VHI77wRwfwHkRXsH8kzCECJU'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
