@@ -46,7 +46,6 @@ export class HamburgerComponent {
 
   toggleOpen(): void {
     if (!this.isOpen) {
-      console.log("test");
       this.location.back();
     } else {
       this.router.navigate(['/menu']);

@@ -89,6 +89,22 @@
     width: 90%;
 }
 
+.content-google {
+    margin: auto;
+    max-width: 800px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.content-google-image img {
+    width: 300px;
+}
+
+.content-google-text {
+    text-align: center;
+    font-weight: 800;
+}
+
 @media only screen and (max-width: 966px) {
     .content-team{
         background-size: contain;

@@ -3,16 +3,23 @@ import { CommonModule } from '@angular/common';
 
 // Components
 import { HamburgerComponent } from './hamburger/hamburger.component';
+import { GalleryComponent } from './gallery/gallery.component';
+
+// 3th part library
+import { NgxGalleryModule } from 'ngx-gallery';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    NgxGalleryModule
   ],
   exports: [
-    HamburgerComponent
+    HamburgerComponent,
+    GalleryComponent
   ],
   declarations: [
-    HamburgerComponent
+    HamburgerComponent,
+    GalleryComponent
   ]
 })
 export class SharedModule { }

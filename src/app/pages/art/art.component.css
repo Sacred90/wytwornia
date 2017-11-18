@@ -1,0 +1,56 @@
+.art {
+    margin-top: 40px;
+    margin-left:0px;
+    margin-right:0px;
+}
+
+.art-line {
+    top: 40px;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    position: fixed;
+    z-index: 10;
+}
+.art-mainImage {
+    background-image: url("../../../assets/images/art/art_background.jpg");
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.art-mainImage-text {
+    text-align: center;
+    color: white;
+    border-color: white;
+    border: solid;
+    border-width: 4px;
+    font-size: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.art-descripion {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.art-images {
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+.art-title-about {
+    top: 0px;
+    position: fixed;
+    margin-left: 30px;
+    font-size: 24px;
+    z-index: 10;
+}

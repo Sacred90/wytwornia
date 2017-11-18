@@ -5,14 +5,10 @@ import { Project2Component }  from './project2/project2.component'
 import { Project3Component }  from './project3/project3.component'
 import { SharedModule }       from "../../shared/shared.module"
 
-//3th part library
-import { GalleryModule } from 'ng-gallery';
-
 @NgModule({
   imports: [
     CommonModule,
-    SharedModule,
-    GalleryModule    
+    SharedModule  
   ],
   declarations: [
       Project1Component,

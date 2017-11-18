@@ -20,44 +20,13 @@ import { SharedModule }                 from './shared/shared.module';
 
 // 3th part library
 import { AgmCoreModule } from '@agm/core';
-import { GalleryModule } from 'ng-gallery';
-
-export const galleryConfig : any = {
-  "style": {
-    "background": "white",
-    "width": "100%",
-    "height": "100%",
-    "padding": "1em"
-  },
-  "animation": "fade",
-  "loader": {
-    "width": "50px",
-    "height": "50px",
-    "position": "center",
-    "icon": "oval"
-  },
-  "description": {
-    "counter": true
-  },
-  "navigation": true,
-  "bullets": {
-    "position": "bottom"
-  },
-  "player": {
-    "autoplay": false,
-    "speed": 3000
-  },
-  "thumbnails": {
-    "width": 120,
-    "height": 90,
-    "position": "bottom",
-    "space": 20
-  }
-} 
+import 'hammerjs';
+import { ArtComponent } from './pages/art/art.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ArtComponent
   ],
   imports: [
     BrowserModule,
@@ -72,7 +41,6 @@ export const galleryConfig : any = {
     ProjectModule,
     BrowserAnimationsModule,
     ContactModule,
-    GalleryModule.forRoot(galleryConfig),
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyD3X-xXCl9VHI77wRwfwHkRXsH8kzCECJU'
     })
