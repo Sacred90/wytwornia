@@ -1,51 +1,26 @@
-<div class = "projects">
-  <div class ="projects-title-about">
-      PROJEKTY
-  </div>
-
-  <div class ="projects-topLine"></div>
-
-  <div class="projects-container">
-    <div class="projects-projectThumb row">
-        <div class="col-md-2 projects-projectThumb-description">
-            <span>Własne 25 metrów</span>
-        </div>
-        <div class="col-md-8" routerLink="/project1" routerLinkActive="active">
-            <img src="assets/images/thumb1.jpg" class="img-fluid" alt="first project">
-        </div>
-    
+<div class="projects">
+    <div class="projects-title-about">
+        PROJEKTY
     </div>
 
-    <div class="projects-line">
-    </div>
+    <div class="projects-topLine"></div>
 
-    <div class="projects-projectThumb row">
-        <div class="col-md-2 projects-projectThumb-description">
-            <span>Przytulny mini apartament</span>
-        </div>
-        <div class="col-md-8" routerLink="/project2" routerLinkActive="active">
-            <img src="assets/images/thumb2.jpg" class="img-fluid" alt="second project">
-        </div>
-    </div>
+    <div class="projects-container">
 
-    <div class="projects-line">
-    </div>
+        <div *ngFor= "let project of projects; let i = index">
+            <div class="projects-projectThumb row">
+                <div class="col-md-2 projects-projectThumb-description">
+                    <span>{{project.descrition}}</span>
+                </div>
+                <div class="col-md-8" routerLink="/project{{i + 1}}" routerLinkActive="active">
+                    <img src="{{project.img}}" class="img-fluid" alt="project">
+                </div>
 
-    <div class="projects-projectThumb row">
-        <div class="col-md-2 projects-projectThumb-description">
-            <span>Shrimp House Szczecin</span>
-        </div>
-        <div class="col-md-8" routerLink="/project3" routerLinkActive="active">
-            <img src="assets/images/thumb3.jpg" class="img-fluid" alt="third project">
+            </div>
+
+            <div class="projects-line">
+            </div>
+
         </div>
     </div>
-  </div>
-<!--   
-  <div class="grid">
-    <div *ngFor="let image of images; let i = index" (click)="gallery.set(i)">
-      <img [src]="image.src"/>
-    </div>
-  </div> -->
-  
-  <!-- <gallery-modal></gallery-modal> -->
 </div>
