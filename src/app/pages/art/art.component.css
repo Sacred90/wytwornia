@@ -47,6 +47,18 @@
 
 }
 
+.art-image {
+    opacity: 0.5;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.art-image:hover {
+    opacity: 1;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
 .art-title-about {
     top: 0px;
     position: fixed;
