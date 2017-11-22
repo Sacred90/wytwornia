@@ -21,11 +21,13 @@ export class GalleryComponent implements OnInit {
 
     this.galleryOptions = [
       {
-        width: '100%',
+        imageSize: "contain",
+        width: '100vw',
         height: '90vh',
         thumbnailsColumns: 3,
         imageAnimation: NgxGalleryAnimation.Slide,
-        previewForceFullscreen: false
+        preview: false,
+        thumbnails: false
       }
     ];
 
