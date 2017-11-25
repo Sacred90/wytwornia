@@ -39,7 +39,7 @@
 }
 
 
-.projects-projectThumb-description {
+.projects-projectThumb-text {
     z-index: 20;
     color: white;
     font-size: 40px;
@@ -49,9 +49,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
-.projects-projectThumb-description:hover ~ img {
+.projects-projectThumb-text-description{
+    font-size: 20px;
+}
+
+.projects-projectThumb-text:hover ~ img {
     opacity: 1;
     -webkit-transition: opacity 1s;
     transition: opacity 1s;
