@@ -13,11 +13,9 @@ export class Project12Component implements OnInit {
 
   ngOnInit() {
     this.images = [
-      'assets/images/shrimphouse/1.jpg',
-      'assets/images/shrimphouse/2.jpg',
-      'assets/images/shrimphouse/3.jpg',
-      'assets/images/shrimphouse/4.jpg',
-      'assets/images/shrimphouse/5.jpg'
+      'assets/images/wlasne25/startowa.jpg',
+      'assets/images/wlasne25/01.jpg',
+      'assets/images/wlasne25/02.jpg',
     ];
   }
 

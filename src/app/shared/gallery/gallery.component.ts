@@ -23,10 +23,9 @@ export class GalleryComponent implements OnInit {
       {
         imageSize: "contain",
         width: '100vw',
-        height: '90vh',
-        thumbnailsColumns: 3,
+        height: '100vh',
         imageAnimation: NgxGalleryAnimation.Slide,
-        preview: false,
+        // preview: false,
         thumbnails: false
       }
     ];

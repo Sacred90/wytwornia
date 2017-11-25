@@ -13,11 +13,16 @@ export class Project4Component implements OnInit {
 
   ngOnInit() {
     this.images = [
-      'assets/images/shrimphouse/1.jpg',
-      'assets/images/shrimphouse/2.jpg',
-      'assets/images/shrimphouse/3.jpg',
-      'assets/images/shrimphouse/4.jpg',
-      'assets/images/shrimphouse/5.jpg'
+      'assets/images/chlodneBarwy/startowa.jpg',
+      'assets/images/chlodneBarwy/01.jpg',
+      'assets/images/chlodneBarwy/02.jpg',
+      'assets/images/chlodneBarwy/03.jpg',
+      'assets/images/chlodneBarwy/04.jpg',
+      'assets/images/chlodneBarwy/05.jpg',
+      'assets/images/chlodneBarwy/06.jpg',
+      'assets/images/chlodneBarwy/07.jpg',
+      'assets/images/chlodneBarwy/08.jpg',
+      'assets/images/chlodneBarwy/09.jpg'
     ];
   }
 

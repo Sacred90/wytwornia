@@ -13,11 +13,15 @@ export class Project8Component implements OnInit {
 
   ngOnInit() {
     this.images = [
-      'assets/images/shrimphouse/1.jpg',
-      'assets/images/shrimphouse/2.jpg',
-      'assets/images/shrimphouse/3.jpg',
-      'assets/images/shrimphouse/4.jpg',
-      'assets/images/shrimphouse/5.jpg'
+      'assets/images/katy/startowa.jpg',
+      'assets/images/katy/01.jpg',
+      'assets/images/katy/02.jpg',
+      'assets/images/katy/03.jpg',
+      'assets/images/katy/04.jpg',
+      'assets/images/katy/05.jpg',
+      'assets/images/katy/06.jpg',
+      'assets/images/katy/07.jpg',
+      'assets/images/katy/08.jpg'
     ];
   }
 
