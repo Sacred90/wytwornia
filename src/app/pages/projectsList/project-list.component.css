@@ -40,6 +40,7 @@
 
 
 .projects-projectThumb-text {
+    cursor: pointer;
     z-index: 20;
     color: white;
     font-size: 40px;
@@ -52,7 +53,8 @@
     flex-direction: column;
 }
 
-.projects-projectThumb-text-description{
+.projects-projectThumb-text-description {
+    text-align: center;
     font-size: 20px;
 }
 
