@@ -25,8 +25,10 @@ export class GalleryComponent implements OnInit {
         width: '100vw',
         height: '100vh',
         imageAnimation: NgxGalleryAnimation.Slide,
-        // preview: false,
-        thumbnails: false
+        preview: false,
+        thumbnails: false,
+        arrowPrevIcon: 'fa fa-arrow-circle-left text-dark',
+        arrowNextIcon: 'fa fa-arrow-circle-right text-dark'
       }
     ];
 
