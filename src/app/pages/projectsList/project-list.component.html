@@ -9,10 +9,19 @@
 
         <div *ngFor= "let project of projects; let i = index">
             <div class="projects-projectThumb row">
-                <div class="col-md-2 projects-projectThumb-description">
-                    <span>{{project.descrition}}</span>
+
+                <div class="col-md-2">
                 </div>
+
                 <div class="col-md-8" routerLink="/project{{i + 1}}" routerLinkActive="active">
+                    <div class="projects-projectThumb-description">
+                        <div>{{project.title}}</div>
+                        <div innerHTML="{{project.description}}">
+
+                        </div>
+
+                    </div>
+
                     <img src="{{project.img}}" class="img-fluid" alt="project">
                 </div>
 

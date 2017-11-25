@@ -13,6 +13,6 @@ export class Project1Component implements OnInit {
   private images;
 
   ngOnInit() {
-    this.images = ['assets/images/kawalerka/1.jpg','assets/images/kawalerka/2.jpg','assets/images/kawalerka/3.jpg']
+    this.images = ['assets/images/angielskie_wnetrze/1_startowy.jpg','assets/images/angielskie_wnetrze/1_2.jpg','assets/images/angielskie_wnetrze/1_3.jpg']
   }
 }
