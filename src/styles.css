@@ -33,3 +33,9 @@ body {
   color: #C3C3C3;
   cursor: default;
 }
+
+a:hover {
+  color: black;
+  text-decoration: none;
+  text-decoration-line:none;
+}

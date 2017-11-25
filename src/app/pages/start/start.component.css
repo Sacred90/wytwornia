@@ -22,3 +22,14 @@
   font-size: 22px;
   line-height: 15px;
 }
+
+.start-socialMedia{
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+}
+
+.start-socialMedia img {
+  margin-right: 20px;
+  height: 50px;
+}
