@@ -22,12 +22,12 @@ export class ProjectListComponent implements OnInit {
       {
         img: "assets/images/projectsThmub/2.jpg",
         title: "DOM POD WROCŁAWIEM",
-        description: "Projekt wnętrz: dom szeregowy <br> Lokalizacnja: Gądów <br> Powierzchnia: 100m2"
+        description: "Projekt wnętrz: dom szeregowy <br> Lokalizacja: Gądów <br> Powierzchnia: 100m2"
       },
       {
         img: "assets/images/projectsThmub/3.jpg",
         title: "LUKSUSOWY DOM",
-        description: "Projekt wnętrzt: Dom jednorodzinny <br> Lokalizacja: Ratowice <br> Powierzchnia:150m2"
+        description: "Projekt wnętrz: Dom jednorodzinny <br> Lokalizacja: Ratowice <br> Powierzchnia:150m2"
       },
       {
         img: "assets/images/projectsThmub/4.jpg",
@@ -62,7 +62,7 @@ export class ProjectListComponent implements OnInit {
       },
       {
         img: "assets/images/projectsThmub/10.jpg",
-        title: "SHRIMP HOUSE WARSZAW",
+        title: "SHRIMP HOUSE WARSZAWA",
         description: "Projekt wnętrz: Restauracja <br> Lokalizacja: Warszawa <br> Powierzchnia: 82m2"
       },
       {
